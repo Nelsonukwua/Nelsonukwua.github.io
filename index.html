@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JESSICA ELENA - Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e7e7; /* Light pink background */
+            color: #333; /* Dark gray text */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
+        }
+        .container {
+            width: 90%;
+            max-width: 900px; /* Limit container width for better readability */
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px 20px; /* Add padding for better spacing */
+            animation: fadeIn 1s; /* Fade in animation */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            font-size: 3rem;
+            color: #ff6699; /* Vibrant pink header */
+            margin-bottom: 20px;
+            animation: slideInDown 1s; /* Slide in animation */
+        }
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-50px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: left;
+            margin-bottom: 20px;
+            animation: fadeIn 1s, slideInUp 1s; /* Fade in and slide in animation */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(50px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        .social-icons {
+            margin-top: 30px;
+            animation: fadeInUp 1s; /* Fade in animation */
+            display: flex;
+            justify-content: center;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 2rem;
+            color: #ff6699; /* Vibrant pink icon color */
+            text-decoration: none;
+            transition: transform 0.3s ease; /* Smooth hover effect */
+            animation: fadeIn 1s, bounceIn 1s; /* Fade in and bounce in animation */
+        }
+        @keyframes bounceIn {
+            from {
+                transform: scale(0.5);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        .social-icons a:hover {
+            transform: translateY(-5px); /* Move icon up on hover */
+            animation: bounce 0.5s; /* Bounce animation on hover */
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Navigation Menu Styles */
+        .navbar {
+            background-color: #ff6699; /* Vibrant pink navbar background */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        .navbar li a {
+            text-decoration: none;
+            color: #fff; /* White text */
+            font-size: 1.2rem;
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+        .navbar li a:hover {
+            color: #ffd700; /* Gold color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>JESSICA ELENA</h1>
+        <p>A dedicated Specialist serving in the military. With a passion for excellence and a commitment to my duties, I bring a unique blend of determination and skill to my role.</p>
+        <p>My journey has been one of resilience and determination. Raised in Los Angeles after my father's departure, I learned early on the value of perseverance and hard work. My drive to excel led me to pursue a career in the military, where I found my calling in the control room, managing critical operations with precision and expertise.</p>
+        <p>As a Specialist, I've proven myself time and again in demanding situations. My keen attention to detail and quick decision-making skills have earned me the respect of my colleagues and superiors alike.</p>
+        <p>My expertise lies in the intricate workings of the military control room. My ability to navigate complex systems and maintain composure under pressure makes me an invaluable asset in any situation.</p>
+        <p>Resilience is at the core of my character. In the face of challenges, I remain steadfast and focused, always striving to overcome obstacles and achieve my goals.</p>
+        <p>Looking ahead, I am determined to achieve financial independence and build a life for myself in Santa Monica. With a vision of owning a home and creating a loving family, I am driven by a sense of purpose and optimism for the future.</p>
+        <p>In conclusion, I embody the finest qualities of a military professional: dedication, resilience, and a commitment to excellence. As I continue to make my mark in the military and beyond, there is no doubt that I will achieve my dreams and leave a lasting legacy of success.</p>
+        <div class="social-icons">
+            <!-- Replace the "#" with your actual Instagram profile link -->
+            <a href="https://www.instagram.com/lena_grace2?igsh=MXBtbjRuMXNuYXo1Mw==" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</body>
+</html>
